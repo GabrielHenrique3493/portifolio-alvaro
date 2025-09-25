@@ -1,0 +1,168 @@
+@font-face {
+    font-family: mistrully;
+    src: url(../fontes/Mistrully.ttf);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000721;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* cabeçalho */
+
+div.cabeçalho {
+    padding: 40px 4%;
+    background-color: white;
+    height: 100px;
+}
+
+div.cabeçalho .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.flex .ulflex {
+    display: flex;
+    gap: 90px;
+}
+
+.ulflex li {
+    font-size: 25px;
+    list-style: none;
+}
+
+.ulflex li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.ulflex li a:hover {
+    color: #002198;
+    transform:  scale(1.1);
+}
+
+.botao-contato button {
+    background-color: #000721;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 40px ;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.botao-contato button:hover {
+    box-shadow: 0px 0px 10px #002198;
+    transform:  scale(1.1);
+
+
+}
+
+/* topo ddo site */
+
+section.topo-site {
+    padding: 40px 5%;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+
+section.topo-site .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+
+.texto-topo h1 {
+    color: white;
+    font-size: 100px;
+    font-family: mistrully;
+}
+
+.texto-topo .descrição {
+    color: #ffffff80;
+    font-size: 2em;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.texto-topo button {
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 40px ;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.texto-topo button:hover {
+    box-shadow: 0px 0px 10px white;
+    transform: scale(1.1);
+}
+
+.flex .img-topo img{
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+/* sobre */
+
+section.sobre-mim {
+    padding: 50px 5%;
+}
+
+.interface .titulo {
+    text-align: center;
+    color: white;
+    font-family: mistrully;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+
+section.sobre-mim .flex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 300px;
+}
+
+.flex .texto-sobre {
+    color: white; 
+}
+
+.flex .texto-sobre p {
+    line-height: 2em;
+    text-align: justify;
+    width: 600px;
+}
+
+.flex .img-sobre img {
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+}
+
