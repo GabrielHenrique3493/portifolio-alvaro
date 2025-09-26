@@ -84,14 +84,20 @@ div.cabeçalho .flex{
 section.topo-site {
     padding: 40px 5%;
     margin-top: 200px;
-    margin-bottom: 70px;
+    margin-bottom: 280px;  
 }
 
 section.topo-site .flex {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 400px;
+    gap: 550px;
+    margin: 0px auto;
+    margin-right: 100px;
+}
+
+.flex .texto-topo {
+    padding-right: 160px;
 }
 
 .texto-topo h1 {
@@ -134,35 +140,41 @@ section.sobre-mim {
     padding: 50px 5%;
 }
 
-.interface .titulo {
+section.sobre-mim .interface .titulo {
     text-align: center;
     color: white;
     font-family: mistrully;
     font-size: 4em;
-    margin-bottom: 10px;
+    margin-bottom: 70px;
 }
 
 
 section.sobre-mim .flex {
     display: flex;
+    justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
-    gap: 300px;
+    gap: 500px;
+    margin: 0px auto; 
 }
 
 .flex .texto-sobre {
-    color: white; 
+    color: white;
 }
 
 .flex .texto-sobre p {
     line-height: 2em;
-    text-align: justify;
-    width: 600px;
+    font-size: 1.5em;
+    width: 750px;
 }
 
 .flex .img-sobre img {
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 500px;
     border-radius: 30px;
+    
+}
+.img-sobre img {
+    margin-right: 100px;
 }
 
