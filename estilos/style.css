@@ -129,9 +129,10 @@ section.topo-site .flex {
 }
 
 .flex .img-topo img{
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 400px;
     border-radius: 30px;
+    object-fit: cover;
 }
 
 /* sobre */
@@ -178,3 +179,37 @@ section.sobre-mim .flex {
     margin-right: 100px;
 }
 
+/* tatuagem */
+
+section.tatuaagens {
+    padding: 40px 4%;
+}
+.interface{
+    margin-top: 40px;
+}
+
+.interface h2 {
+    color: white;
+    font-family: mistrully;
+    font-size: 3.3em;
+    text-align: center;
+}
+
+.interface .flex {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 400px;
+}
+
+.flex .tatu {
+    background-color: #ffffff;
+    width: 400px;
+    height: 600px;
+}
+
+.flex .tatu a img {
+    object-fit: cover;
+    width: 400px;
+    height: 600px;
+}
