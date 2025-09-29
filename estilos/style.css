@@ -84,7 +84,7 @@ div.cabeçalho .flex{
 section.topo-site {
     padding: 40px 5%;
     margin-top: 200px;
-    margin-bottom: 280px;  
+    margin-bottom: 70px;  
 }
 
 section.topo-site .flex {
@@ -181,8 +181,9 @@ section.sobre-mim .flex {
 
 /* tatuagem */
 
-section.tatuaagens {
-    padding: 40px 4%;
+section.tatuagens {
+    padding: 82px 4%;
+    box-shadow: 0px 0px 31px #fff;
 }
 .interface{
     margin-top: 40px;
@@ -195,21 +196,53 @@ section.tatuaagens {
     text-align: center;
 }
 
-.interface .flex {
+section.tatuagens .flex {
     display: flex;
     justify-content: space-around;
     align-content: center;
     gap: 400px;
 }
 
-.flex .tatu {
-    background-color: #ffffff;
-    width: 400px;
-    height: 600px;
+.tatu {
+    display: inline-block;
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 0% 100%;
+    transition: 5s;
+    border-radius: 20px;
 }
 
-.flex .tatu a img {
-    object-fit: cover;
-    width: 400px;
-    height: 600px;
+.tatu:hover {
+   background-position: 100% 100%;
+   transform: scale(1.1); 
 }
+
+footer {
+    padding: 80px 8%;
+    background-color: white;
+    height: 50px;
+}
+
+footer .flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex .paragrafo1 a {
+    display: inline-block;
+    color: #000721;
+    text-decoration: none;
+    font-size: 30px;
+    transition: .3s;
+}
+
+.flex .paragrafo1 a:hover {
+    transform: scale(1.2);
+    text-shadow: 0px 0px 10px #002198;
+}
+
+footer .img-logo{
+    background-color: white;
+}
+
